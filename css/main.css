@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+}
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+}
+.navbar .logo{
+    width: 14%;
+}
+.list ul {
+    display: flex;
+}
+.list ul li{
+    padding-left: 25px;
+    list-style-type: none;
+
+}
+.list ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 0.78;
+}
+/*portfiolo style*/
+.portofilo .container{
+    width: 100%;
+    margin-top: 40px;
+}
+.portfiolo_text{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.portfiolo_text h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(56, 55, 55);
+    text-align: center;
+}
+.portfiolo_text p{
+    font-style: italic;
+    opacity: 0.4;
+}
+
+.portfiolo_img .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center ;
+    padding-top: 15px;
+    row-gap: 20px;
+    column-gap: 20px;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.portfiolo_img img{
+    width:26.23%;
+    display: block;
+}
